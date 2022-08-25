@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+
 import colors from '../../constants/colors';
 
 export const styles = StyleSheet.create({
@@ -12,6 +13,7 @@ export const styles = StyleSheet.create({
     headerText:{
         fontSize:20,
         color:'white',
-        fontWeight:'bold',
+        //fontWeight:'bold', FONT WEIGHT IS NOT COMPATIBLE WITH FONT FAMILY
+        fontFamily:'LatoBold',
     },
 });

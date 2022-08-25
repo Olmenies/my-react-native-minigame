@@ -25,16 +25,16 @@ export const styles = StyleSheet.create({
         fontSize:20,
     },
 
-    startGameInputInput:{
-        fontSize:20,
-        marginHorizontal:20,
-        textAlign:'center',
-    },
-
     startGameButtonContainer:{
         flexDirection:'row',
         alignItems:'center',
         justifyContent:'space-around',
         marginVertical:30,
     },
+
+    startGameConfirmText:{
+        textAlign:'center',
+        fontSize:20,
+        fontFamily:'Lato',
+    }
 });
